@@ -48,6 +48,46 @@ const data = [
 		content: (
 			<div>
 				<p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
+					🤖 2022 – Building AI & Media-Rich Experiences
+				</p>
+				<div className="mb-8 flex flex-col gap-2">
+					<div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+						✅ Spearheaded the development of an AI-powered reply
+						suggestion engine, integrating vector databases and streaming
+						backend services.
+					</div>
+					<div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+						✅ Delivered a message reply box supporting inline image and
+						video uploads, enhancing communication workflows.
+					</div>
+					<div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+						✅ Maintained a continuous learning curve across TypeScript,
+						ReactJS, and NodeJS.
+					</div>
+				</div>
+
+				<Link
+					href="https://raiyan-portfolio.s3.us-east-1.amazonaws.com/richpanel_app_replybox_ai.png"
+					target="_blank"
+				>
+					<div className="grid grid-cols-1">
+						<BlurImage
+							src="https://raiyan-portfolio.s3.us-east-1.amazonaws.com/richpanel_app_replybox_ai.png"
+							alt="Richpanel Recoginition Linkedin"
+							width={500}
+							height={500}
+							className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] cursor-pointer"
+						/>
+					</div>
+				</Link>
+			</div>
+		),
+	},
+	{
+		title: '2022',
+		content: (
+			<div>
+				<p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
 					🔍 2021 – Diving Deeper into Frontend Internals
 				</p>
 				<div className="mb-8 flex flex-col gap-2">
@@ -67,31 +107,21 @@ const data = [
 						under 500 MB, significantly improving product performance.
 					</div>
 				</div>
-			</div>
-		),
-	},
-	{
-		title: '2022',
-		content: (
-			<div>
-				<p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
-					🤖 2022 – Building AI & Media-Rich Experiences
-				</p>
-				<div className="mb-8 flex flex-col gap-2">
-					<div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-						✅ Spearheaded the development of an AI-powered reply
-						suggestion engine, integrating vector databases and streaming
-						backend services.
+
+				<Link
+					href="https://raiyan-portfolio.s3.us-east-1.amazonaws.com/richpanel_app_memory.png"
+					target="_blank"
+				>
+					<div className="grid grid-cols-1">
+						<BlurImage
+							src="https://raiyan-portfolio.s3.us-east-1.amazonaws.com/richpanel_app_memory.png"
+							alt="Richpanel Recoginition Linkedin"
+							width={500}
+							height={500}
+							className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] cursor-pointer"
+						/>
 					</div>
-					<div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-						✅ Delivered a message reply box supporting inline image and
-						video uploads, enhancing communication workflows.
-					</div>
-					<div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-						✅ Maintained a continuous learning curve across TypeScript,
-						ReactJS, and NodeJS.
-					</div>
-				</div>
+				</Link>
 			</div>
 		),
 	},
