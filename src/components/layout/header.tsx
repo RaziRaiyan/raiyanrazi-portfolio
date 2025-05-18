@@ -29,12 +29,10 @@ const links = [
 	{
 		title: 'Certifications',
 		href: '/certificates',
-		isComingSoon: true,
 	},
 	{
 		title: 'About',
 		href: '/about',
-		isComingSoon: true,
 	},
 ];
 
@@ -129,8 +127,7 @@ export const Header = () => {
 							<DrawerContent className="min-h-dvh">
 								<DrawerHeader className="flex justify-between">
 									<DrawerTitle className="flex items-center gap-2">
-										<Logo className="size-14" />
-										raiyanrazi.id.vn
+										<Logo className="size-14" fill="white" />
 									</DrawerTitle>
 									<DrawerClose
 										asChild
@@ -156,11 +153,6 @@ export const Header = () => {
 											onClick={() => setIsDrawerOpen(false)}
 										>
 											{link.title}
-											{link.isComingSoon && (
-												<span className="text-sm bg-blue-300/10 text-blue-500 px-2 py-1 rounded-full">
-													Coming Soon
-												</span>
-											)}
 										</Link>
 									))}
 								</div>

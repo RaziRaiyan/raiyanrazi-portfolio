@@ -67,10 +67,6 @@ export const ComingSoonPage = ({ pageName }: { pageName?: string }) => {
 				<TypingAnimation delay={6500} className="text-muted-foreground">
 					Success! Portfolio initialization completed.
 				</TypingAnimation>
-
-				<TypingAnimation delay={7000} className="text-muted-foreground">
-					Launching soon at raiyanrazi.id.vn
-				</TypingAnimation>
 			</Terminal>
 
 			<div className="flex mt-10 justify-center text-center ">

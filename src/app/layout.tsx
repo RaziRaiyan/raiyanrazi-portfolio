@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		images: [
 			{
-				url: 'https://voocgavdbpy2gucg.public.blob.vercel-storage.com/open-graph-6fkPvt3jl60AhDWy2pPhfp3PKoZPrZ.png',
+				url: '/images/raiyan_tech_3d_render.png',
 				width: 1200,
 				height: 630,
 				alt: 'Raiyan Razi - Frontend Developer Portfolio',
@@ -48,9 +48,7 @@ export const metadata: Metadata = {
 		title: 'Raiyan Razi | Frontend Developer Portfolio',
 		description:
 			"Explore Raiyan Razi's frontend projects and expertise in React, Next.js, and modern web development.",
-		images: [
-			'https://voocgavdbpy2gucg.public.blob.vercel-storage.com/open-graph-6fkPvt3jl60AhDWy2pPhfp3PKoZPrZ.png',
-		],
+		images: ['/images/raiyan_tech_3d_render.png'],
 	},
 	icons: {
 		icon: '/favicon.ico',
