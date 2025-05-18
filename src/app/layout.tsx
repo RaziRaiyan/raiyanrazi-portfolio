@@ -14,9 +14,9 @@ const exo2 = Exo_2({
 });
 
 export const metadata: Metadata = {
-	title: 'Raiyan Razi | Frontend Developer Portfolio',
+	title: 'Raiyan Razi | Senior Frontend Engineer',
 	description:
-		"Explore Raiyan Razi's portfolio – a skilled Frontend Developer specializing in Next.js, React, and modern web technologies. Showcasing innovative projects, UI/UX expertise, and high-performance web applications.",
+		"Explore Raiyan Razi's portfolio – a skilled software engineer specializing in Next.js, React, and modern web technologies. Showcasing innovative projects, UI/UX expertise, and high-performance web applications.",
 	keywords: [
 		'Frontend Developer',
 		'Next.js Developer',
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
 		'Modern Web Technologies',
 	],
 	openGraph: {
-		title: 'Raiyan Razi | Frontend Developer Portfolio',
+		title: 'Raiyan Razi | Senior Frontend Engineer',
 		description:
-			"Discover Raiyan Razi's expertise in Frontend Development, React, and Next.js. View projects, case studies, and technical skills.",
+			"Discover Raiyan Razi's expertise in software engineering, React, and Next.js. View projects, case studies, and technical skills.",
 		url: 'https://raiyanrazi.dev',
 		type: 'website',
 		images: [
@@ -39,15 +39,15 @@ export const metadata: Metadata = {
 				url: '/images/raiyan_tech_3d_render.png',
 				width: 1200,
 				height: 630,
-				alt: 'Raiyan Razi - Frontend Developer Portfolio',
+				alt: 'Raiyan Razi - Senior Frontend Engineer',
 			},
 		],
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Raiyan Razi | Frontend Developer Portfolio',
+		title: 'Raiyan Razi | Senior Frontend Engineer',
 		description:
-			"Explore Raiyan Razi's frontend projects and expertise in React, Next.js, and modern web development.",
+			"Explore Raiyan Razi's software engineering projects and expertise in React, Next.js, and modern web development.",
 		images: ['/images/raiyan_tech_3d_render.png'],
 	},
 	icons: {
