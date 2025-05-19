@@ -205,15 +205,17 @@ const HeaderLink = ({ title, href }: { title: string; href: string }) => {
 	const pathname = usePathname() || '/';
 	const isActive = href === pathname;
 	return (
-		<div
-			className={cn(
-				'flex items-center gap-2 px-3 py-2 rounded-full transition-colors',
-				isActive
-					? 'dark:bg-white dark:text-black bg-zinc-900 text-white'
-					: 'dark:hover:bg-zinc-800 hover:bg-zinc-100',
-			)}
-		>
-			<Link href={href}>{title}</Link>
-		</div>
+		<Link href={href}>
+			<div
+				className={cn(
+					'flex items-center gap-2 px-3 py-2 rounded-full transition-colors',
+					isActive
+						? 'dark:bg-white dark:text-black bg-zinc-900 text-white'
+						: 'dark:hover:bg-zinc-800 hover:bg-zinc-100',
+				)}
+			>
+				{title}
+			</div>
+		</Link>
 	);
 };
